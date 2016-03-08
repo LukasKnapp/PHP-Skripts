@@ -1,0 +1,44 @@
+#volume
+{
+    position: relative;
+    width: 75px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#playercontrols{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playerlist{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item{
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    padding-left: 5px;
+    background: #620000;
+    width: 400px;
+}
+
+.item:hover{
+  background: #A10000; 
+}
+
+.item[selected="true"]{
+
+  background: #C60000;
+    
+}
